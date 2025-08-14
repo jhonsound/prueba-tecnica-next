@@ -112,7 +112,7 @@ export default function HomePage() {
               Presupuesto:&nbsp;
               <input
                 type="number"
-                value={budget}
+                defaultValue={budget}
                 onChange={(e) => setBudget(parseInt(e.target.value || "0", 10))}
                 className="w-28 p-1 rounded border dark:bg-gray-700"
               />
